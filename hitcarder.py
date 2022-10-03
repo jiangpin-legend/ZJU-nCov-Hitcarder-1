@@ -10,7 +10,7 @@ import os
 import sys
 import message
 import ddddocr
-from random import randomint
+from random import randint
 
 
 class HitCarder(object):
