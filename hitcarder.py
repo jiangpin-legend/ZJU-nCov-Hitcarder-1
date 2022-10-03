@@ -10,6 +10,7 @@ import os
 import sys
 import message
 import ddddocr
+from random import randomint
 
 
 class HitCarder(object):
@@ -227,7 +228,12 @@ if __name__ == "__main__":
         time.sleep(5)
         ret, msg = main(username, password)
         print(ret, msg)
-
+    
+    sleep_time = randomint(10,50)
+    print("Random sleep"+str(sleep_time)+"min")
+    time.sleep(sleep_time*60)
+    print("Sleep Finished")
+    
     dingtalk_token = os.environ.get('DINGTALK_TOKEN')
     if dingtalk_token:
         ret = message.dingtalk(msg, dingtalk_token)
