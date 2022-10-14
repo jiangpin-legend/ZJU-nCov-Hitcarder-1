@@ -57,7 +57,7 @@
                                 </div>
                             </li>
 
-                            <li v-if="info.sfzx==='0' && sfzgn== 1">
+                            <!--<li v-if="info.sfzx==='0' && sfzgn== 1">
                                 <div name="ismoved" class="radio"><span>今日是否有离开校区所在城市的外出安排。Are you planning to leave the city of your campus today?<i class="icon iconfont icon-shuoming"></i><em></em></span>
                                     <div>
                                         <div @click="info.ismoved=2"><span :class="{active: info.ismoved==2}"><i></i></span> <span>离市 Leaving the City</span></div>
@@ -66,7 +66,7 @@
                                         <div @click="info.ismoved=5"><span :class="{active: info.ismoved==5}"><i></i></span> <span>无 No</span></div>
                                     </div>
                                 </div>
-                            </li>
+                            </li>-->
 
                                                         <li>
                                 <div name="internship" class="radio"><span>今日是否进行实习或实践。Are you doing an internship today?<i class="icon iconfont icon-shuoming"></i><em></em></span>
