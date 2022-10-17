@@ -221,8 +221,11 @@ def main(username, password):
 
 
 if __name__ == "__main__":
-    username = os.environ['USERNAME']
-    password = os.environ['PASSWORD']
+    # username = os.environ['USERNAME']
+    # password = os.environ['PASSWORD']
+
+    username = "22232114"
+    password = "ljp182211"
 
     #sleep_time = randint(10,50)
     #print("Random sleep"+str(sleep_time)+" min")
